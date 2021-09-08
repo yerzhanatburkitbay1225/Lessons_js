@@ -91,7 +91,8 @@ console.log(result);
 const fullName = (firstName, lastName) =>{
     return `${firstName} ${lastName}`;
 }
-console.log(fullName('Yerzhanat', 'Burkitbay'));
+const name = fullName('Yerzhanat', 'Burkitbay');
+console.log(name);
 /* 
     Задание 5:
 
