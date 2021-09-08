@@ -88,11 +88,13 @@ console.log(result);
 
     При вызове функции передайте ей, в качестве аргумента, свое имя и фамилию.
 */
+
 const fullName = (firstName, lastName) =>{
     return `${firstName} ${lastName}`;
 }
 const name = fullName('Yerzhanat', 'Burkitbay');
 console.log(name);
+
 /* 
     Задание 5:
 
